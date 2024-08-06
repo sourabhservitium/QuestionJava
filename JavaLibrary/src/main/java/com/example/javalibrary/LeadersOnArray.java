@@ -6,7 +6,7 @@ public class LeadersOnArray {
     public static void main(String[] args){
         int[] arr = {7, 10, 4, 3, 6, 5, 2};
 
-        /*for (int i = 0; i < arr.length; i++) {
+        for (int i = 0; i < arr.length; i++) {
             boolean isLeader = true;
             for (int j = i + 1; j < arr.length; j++) {
                 if (arr[i] <= arr[j]) {
@@ -17,7 +17,9 @@ public class LeadersOnArray {
             if (isLeader) {
                 System.out.println(arr[i]);
             }
-        }*/
+        }
+
+//    ----------------------------------------------------------------------
 
         int curr_leader = arr[arr.length - 1];
         System.out.println(curr_leader);
