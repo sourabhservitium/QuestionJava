@@ -6,6 +6,7 @@ public class SlidingWIndowTechnique {
         int n = arr.length;
         int k = 3;
         System.out.println(maxSum(arr, n, k));
+//        System.out.println(maxSum(arr, n));
     }
 
     private static int maxSum(int[] arr, int n, int k) {
